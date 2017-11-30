@@ -1,1 +1,25 @@
-body{background-color: red;}
+body
+{
+    background-color: rgba(17, 0, 255, 0.308);
+    color: rgba(4, 47, 87, 0.692);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+#kontener
+    {
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(105, 136, 35, 0.719);
+
+
+    }
+        .grafika
+        {
+            color: aqua;
+
+
+
+
+        } 
