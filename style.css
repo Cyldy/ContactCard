@@ -47,10 +47,6 @@ body
             border-collapse: collapse;
             width: 200px; }
         td {
-            border: 2px solid #000000;
+            border: 2px solid white;
             padding: 5px;}
-        .header {
-            font-weight: bold;
-            background-color: #C0C0C0;
-
-        }
+        
