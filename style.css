@@ -4,6 +4,7 @@ body
     color: rgba(4, 47, 87, 0.692);
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
+   
 
 
 }
@@ -11,7 +12,11 @@ body
     {
     width: 1000px;
     height: 500px;
-    background-color: rgba(105, 136, 35, 0.719);
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 
 
     }
@@ -26,8 +31,13 @@ body
 
             img
             {
-                width: 500px;
+                width: 600px;
                 height: 400px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            
 
 
             }
