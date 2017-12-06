@@ -35,11 +35,12 @@ body
 
            img
             {
-                width: 280px;
-                height: 380px;
+                width: 200px;
+                height: 280px;
                 display: block;
-                margin-left: 700px;
-                margin-top: 2px;
+               position: absolute;
+               right: 650px;
+               
                
               
                 
@@ -59,7 +60,9 @@ body
         th {
            
             background: linear-gradient(to right, red,orange,yellow,green,rgba(255, 94, 0, 0.308),indigo,violet); 
-
+            font-style: italic;
+            font-size: 200%;
+            align-self: right;
             border-collapse: collapse;
             width: 150px; }
         td {
