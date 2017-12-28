@@ -1,76 +1,62 @@
-body
-{
-    background-color: rgba(17, 0, 255, 0.308);
+body {
+    background: linear-gradient(to left, white, grey);
     color: rgba(4, 47, 87, 0.692);
     font-size: 35px;
-    
-   
-
-
 }
-#kontener
-    {
+
+#container {
     width: 800px;
     height: 400px;
-    background: linear-gradient(90deg, red,orange,yellow,red);
+    background: white;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 200px;
+    margin-left: 500px;
     border-style: groove;
-    border-color:grey;
+    border-color: black;
     border-width: 10px;
     border-radius: 10px;
+}
 
+.image img {
+    width: 200px;
+    height: 280px;
+    display: block;
+    position: fixed;
+    right: 900px;
+    top: 1000px;
+    z-index: 1;
+}
 
-    }
-        .grafika
-        {
-            color: rgb(91, 223, 223);
+p {
+    margin: 10px 550px 10px;
+}
 
+table {
+    margin-top: -400px;
+    margin-left: 600px;
+}
 
+th {
+    background: linear-gradient(to right, black, rgba(228, 227, 227, 0.835));
+    font-style: italic;
+    color: white;
+    font-size: 200%;
+    border-collapse: collapse;
+    width: 20px;
+}
 
+td {
+    background: linear-gradient(to right, grey, white);
+    font-style: oblique;
+    font-size: 100%;
+    border-collapse: collapse;
+    width: 20px;
+}
 
-        } 
-
-           img
-            {
-                width: 200px;
-                height: 280px;
-                display: block;
-               position: absolute;
-               right: 650px;
-               top: 220px;
-               
-               
-              
-                
-            }
-
-
-
-
-            
-        table
-        {
-
-            margin-top: -400px;
-            margin-left: 600px;
-        }
-        
-        th {
-            color: white;
-            text-shadow: 2px 4px 4px black;
-            background: linear-gradient(to right, red,orange,yellow); 
-            font-style: italic;
-            font-size: 200%;
-            border-collapse: collapse;
-            width: 450px; }
-        td {
-            color:black;
-            text-shadow: 4px 4px 5px white; 
-            font-family: 'Times New Roman', Times, serif;
-            border: 0px solid rgb(122, 18, 18);
-            padding: 5px;
-            }
-        
+td {
+    color: black;
+    text-shadow: 4px 4px 5px white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0px;
+    padding: 5px;
+}
